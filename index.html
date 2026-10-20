@@ -64,12 +64,13 @@ details p{color:var(--muted);margin:10px 0 0}
 .cta{background:var(--soft);border-radius:26px;padding:34px 24px;text-align:center}
 .cta p{color:var(--muted)}
 
-.gallery{columns:2 200px;column-gap:12px}
-.gallery figure{margin:0 0 12px;break-inside:avoid}
-.gallery img{width:100%;border-radius:14px;display:block}
-.gallery figcaption{font-size:.85rem;color:var(--muted);padding:6px 4px 0}
+.gallery{columns:3 150px;column-gap:10px}
+@media(max-width:560px){.gallery{columns:2}}
+.gallery figure{margin:0 0 10px;break-inside:avoid}
+.gallery img{width:100%;border-radius:12px;display:block;cursor:zoom-in}
+.gallery figcaption{font-size:.78rem;color:var(--muted);padding:6px 4px 0}
 .note{font-size:.85rem;color:var(--muted);margin-top:8px}
-.proc{width:100%;max-width:360px;border-radius:18px;display:block;margin:0 0 22px}
+.proc{width:100%;max-width:240px;border-radius:18px;display:block;margin:0 0 22px}
 .reviews{display:grid;gap:14px}
 .review{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}
 .review .stars{color:#d9a21b;letter-spacing:2px}
@@ -140,14 +141,14 @@ iframe{width:100%;height:280px;border:0;border-radius:18px}
     <h2>Resultados <em>reales</em></h2>
     <p style="color:var(--muted)">Fotos de clientes de Skin Láser, publicadas con su permiso. Cada piel y cada tatuaje responden de forma distinta.</p>
     <div class="gallery">
-      <figure><img src="img/10.jpg" alt="Tatuaje antes y después de la primera sesión de láser" loading="lazy"><figcaption>Antes y resultado tras la primera sesión</figcaption></figure>
-      <figure><img src="img/3.jpg" alt="Tatuaje de labios antes y después del láser" loading="lazy"><figcaption>Antes y después</figcaption></figure>
-      <figure><img src="img/7.jpg" alt="Tatuajes en los dedos antes y después del láser" loading="lazy"><figcaption>Antes y después</figcaption></figure>
-      <figure><img src="img/4.jpg" alt="Tatuaje en la muñeca tras dos sesiones de láser" loading="lazy"><figcaption>Dos sesiones y tercera y última para eliminarlo</figcaption></figure>
-      <figure><img src="img/5.jpg" alt="Tatuaje de nombre en la muñeca tras dos sesiones" loading="lazy"><figcaption>Dos sesiones para eliminar este tatuaje</figcaption></figure>
-      <figure><img src="img/6.jpg" alt="Tatuaje en la muñeca tras la segunda sesión" loading="lazy"><figcaption>Segunda sesión (arriba a la derecha, el original)</figcaption></figure>
-      <figure><img src="img/8.jpg" alt="Tatuaje de texto en la mano antes del láser" loading="lazy"><figcaption>Antes</figcaption></figure>
-      <figure><img src="img/9.jpg" alt="La misma zona tras el tratamiento con láser" loading="lazy"><figcaption>Después</figcaption></figure>
+      <figure><a href="img/10.jpg" target="_blank" rel="noopener"><img src="img/10.jpg" alt="Tatuaje antes y después de la primera sesión de láser" loading="lazy"></a><figcaption>Antes y resultado tras la primera sesión</figcaption></figure>
+      <figure><a href="img/3.jpg" target="_blank" rel="noopener"><img src="img/3.jpg" alt="Tatuaje de labios antes y después del láser" loading="lazy"></a><figcaption>Antes y después</figcaption></figure>
+      <figure><a href="img/7.jpg" target="_blank" rel="noopener"><img src="img/7.jpg" alt="Tatuajes en los dedos antes y después del láser" loading="lazy"></a><figcaption>Antes y después</figcaption></figure>
+      <figure><a href="img/4.jpg" target="_blank" rel="noopener"><img src="img/4.jpg" alt="Tatuaje en la muñeca tras dos sesiones de láser" loading="lazy"></a><figcaption>Dos sesiones y tercera y última para eliminarlo</figcaption></figure>
+      <figure><a href="img/5.jpg" target="_blank" rel="noopener"><img src="img/5.jpg" alt="Tatuaje de nombre en la muñeca tras dos sesiones" loading="lazy"></a><figcaption>Dos sesiones para eliminar este tatuaje</figcaption></figure>
+      <figure><a href="img/6.jpg" target="_blank" rel="noopener"><img src="img/6.jpg" alt="Tatuaje en la muñeca tras la segunda sesión" loading="lazy"></a><figcaption>Segunda sesión (arriba a la derecha, el original)</figcaption></figure>
+      <figure><a href="img/8.jpg" target="_blank" rel="noopener"><img src="img/8.jpg" alt="Tatuaje de texto en la mano antes del láser" loading="lazy"></a><figcaption>Antes</figcaption></figure>
+      <figure><a href="img/9.jpg" target="_blank" rel="noopener"><img src="img/9.jpg" alt="La misma zona tras el tratamiento con láser" loading="lazy"></a><figcaption>Después</figcaption></figure>
     </div>
   </section>
 
