@@ -60,10 +60,11 @@ header{padding:20px 0;display:flex;justify-content:space-between;align-items:cen
 .btn.main{background:var(--accent-dark);color:#fff}
 .btn.alt{border:2px solid var(--accent-dark);color:var(--ink)}
 section{padding:44px 0}
-.menu{position:sticky;top:0;z-index:6;background:var(--bg);display:flex;gap:8px;overflow-x:auto;padding:10px 0;margin:0 -20px;padding-left:20px;padding-right:20px;border-bottom:1px solid var(--line);scrollbar-width:none}
-.menu::-webkit-scrollbar{display:none}
-.menu a{white-space:nowrap;text-decoration:none;color:var(--ink);background:var(--soft);padding:8px 16px;border-radius:99px;font-size:.92rem;font-weight:600}
-section{scroll-margin-top:64px}
+.menu{background:var(--bg);display:flex;flex-wrap:wrap;gap:8px;padding:6px 0 14px;border-bottom:1px solid var(--line)}
+.menu a{text-decoration:none;color:var(--ink);background:var(--soft);padding:8px 14px;border-radius:99px;font-size:.88rem;font-weight:600;line-height:1.2}
+@media(min-width:760px){.menu{position:sticky;top:0;z-index:6;padding:10px 0}}
+section{scroll-margin-top:20px}
+@media(min-width:760px){section{scroll-margin-top:64px}}
 
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
